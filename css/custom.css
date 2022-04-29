@@ -1,0 +1,399 @@
+body {
+  background: url(../imagens/bg-header.png) no-repeat center top;
+}
+
+.colorBlue {
+  color: #0610CA;
+}
+
+/*
+REFAZ A FORMATAÇÃO DO PARAGRAFO AJUSTANDO DE ACORDO COM 
+O ELEMENTO PAI
+*/
+
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: white;
+}
+
+#conteudo h2 {
+  font-family: klavikabold, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: -2px;
+}
+
+#conteudo h2.ideias {
+  color: #E90C98;
+}
+
+#conteudo h2.inovadores {
+  color: #E07100;
+}
+
+#conteudo h2.tecnologia {
+  color: #77147B;
+}
+
+#conteudo .link-site {
+  color: black;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.t {
+  border: 2px solid red;
+}
+
+#espelho {
+  font-family: klavikalight, sans-serif;
+  background-image: url(../imagens/bg-calltoaction.png);
+  color: white;
+  text-align: right;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#espelho .cinco {
+  font-family: klavikalight, sans-serif;
+  font-size: 87px;
+  padding: 0;
+  margin: 0;
+  line-height: 50px;
+}
+
+#espelho .ideias {
+  font-family: klavikabold, sans-serif;
+  font-style: italic;
+  font-size: 64px;
+  padding: 0;
+  margin: 0;
+}
+
+#espelho .orcamento {
+  font-family: klavikalight, sans-serif;
+  font-size: 33px;
+  font-style: italic;
+  padding-right: 150px;
+}
+
+#espelho a {
+  font-family: klavikabold, sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 10px 50px 16px 50px;
+}
+
+#portifolio {
+  text-align: left;
+}
+
+#portifolio .portifolio-pegueno {
+  font-family: klavikabold, sans-serif;
+  font-style: italic;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #DF648C;
+}
+
+#portifolio .trabalho {
+  font-family: klavikabold, sans-serif;
+  font-style: italic;
+  font-size: 48px;
+}
+/* portifolio blocos */
+#port-blocos .blocos-cor {
+  background-color: #373299;
+}
+
+#footer {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  background-image: url(../imagens/bg-footer.png);
+  font-size: 24px;
+  color: white;
+  height: 410px;
+  padding-top: 100px;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer .espaco {
+  line-height: 3;
+  text-align: left;
+}
+
+/*
+começo das subpaginas
+*/
+
+/* case */
+.text-sub-slider {
+  background-color: #A74689;
+  margin-top: 15px;
+  font-family: klavikalight, sans-serif;
+  font-style: italic;
+  font-size: 75px;
+  text-transform: uppercase;
+  color: white;
+  padding-bottom: 25px;
+}
+
+.text-azul {
+  font-family: klavikalight, sans-serif;
+  font-size: 41px;
+  color: #323ada;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.text-roxo {
+  font-family: klavikamedium, sans-serif;
+  color: #641099;
+  font-size: 66px;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  padding-left: 65px;
+  line-height: 0.2; 
+}
+
+.text-h2 {
+  font-family: klavikamedium, sans-serif;
+  font-size: 36px;
+  color: #64109a;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.esclamacao {
+  font-family: klavikabold, sans-serif;
+  font-style: italic;
+  font-size: 125px;
+  float: right center;
+}
+
+.text-paragrafo {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+  
+.link-site {
+  font-family: klavikamedium, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: none;;
+  text-align: center;
+  color: black;;
+  border-bottom: 8px solid #ce6f91;
+  padding: 0;
+  margin: 0;
+  padding-left: 8px;
+  line-height: 3;
+}
+/* fim case */
+
+/* case 02 */
+#case02 .text-sub-slider {
+  padding-bottom: 50px;
+}
+
+#case02 .text-amarelo {
+  font-family: klavikalight, sans-serif;
+  color: #fff000;
+  font-style: normal;
+  text-transform: none;
+  font-size: 38px;
+}
+
+#case02 .text-paragrafo {
+  margin: 28px;
+}
+/*  fim case 02 */
+
+/*Servicos pagina 1 */
+#subservicos .text-sub-slider {
+  padding-left: 175px;
+}
+/*fim Servicos pagina 1 */
+
+/*Servicos pagina 2 */
+#servicos-pag-02 .text-sub-slider {
+  text-align: center;
+  padding-right: 450px;
+}
+
+.cortexto02 {
+  font-family: klavikamedium, sans-serif;
+  color: #FFF001;
+  font-size: 38px;
+  font-style: italic;
+}
+/* fim Servicos pagina 2 */
+
+/*clientes pagina 2 */
+#clientes .text-sub-slider {
+  padding-left: 350px;
+}
+
+#clientes .text-paragrafo {
+ margin: 35px;
+}
+/*fim clientes pagina 2 */
+
+/* pagina sobre */
+#pag-sobre .sobre-borda {
+  background-color: #A74689;
+  margin-top: 15px;
+}
+
+#pag-sobre .prazer {
+  font-family: klavikalight, sans-serif;
+  font-style: italic;
+  font-size: 76px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: right;
+  padding-top: 35px;
+}
+
+.somos {
+  font-family: klavikabold, sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  color: #FEA116;
+  padding: 35px;
+}
+
+#pag-sobre .text-h2 {
+  font-family: Raleway,sans-serif;
+  font-weight: 600;
+  text-transform: none;
+  font-style: italic;
+}
+/* pagina sobre */
+
+/*slider com texto pag sobre */
+#sub-pag-slider {
+  background-image: url(../imagens/bg-missao-visao.jpg);
+}
+
+.text-pag-slider {
+  font-family: klavikabold;
+  font-style: italic;
+  font-size: 48px;
+  color: #E90C98;
+  text-align: end;
+}
+
+.text-paragrafo-slider {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: white;
+  border-left: 5px solid white;
+  padding-left: 15px;
+}
+/*fim slider com texto */
+
+/*Estrutura Imagiton pag sobre */
+.texto-porque {
+  font-family: klavikalight, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+  color: #060CD0;
+  line-height: 0.2;
+}
+
+.texto-imagiton {
+  font-family: klavikamedium, sans-serif;
+  font-style: italic;
+  font-size: 66px;
+  color: #75159B;
+  line-height: 1;
+  padding-left: 65px;
+}
+
+.esclamacao {
+  font-size: 145px;
+  float: right center;
+  color: #75159B;
+}
+
+#imagiton-blocos {
+  color: #75159D;
+}
+
+.text-blocos {
+  font-family: klavikamedium, sans-serif;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: bold;
+}
+/*fim Estrutura Imagiton */
+
+/*equipamentos pag sobre */
+#equipamento {
+  background-color: #4A234F;
+  height: 250px;
+  width: auto;
+}
+
+#equipamento .equipamento-texto {
+  font-family: klavikabold, sans-serif;
+  font-size: 21px;
+  color: #E0668F;
+  text-transform: uppercase;
+  padding-top: 35px;
+}
+
+#equipamento .tecnologia-texto {
+  font-family: klavikabold, sans-serif;
+  font-size: 50px;
+  color: #fff;
+}
+
+#equipamento p {
+  font-family: Raleway, sans-serif;
+  font-size: 23px;
+  color: #fff;
+  text-align: left;
+  padding-top: 50px;
+}
+
+#subproduto {
+  text-align: right;
+  margin: 60px 60px;
+}
+
+#subproduto .h2-texto {
+  font-family: klavikabold, sans-serif;
+  color: #E0668D;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+#subproduto p {
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
+  font-size: 22px;
+  color: black;
+}
+
